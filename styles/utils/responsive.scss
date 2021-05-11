@@ -1,0 +1,44 @@
+$widths: 850, 900, 950, 1000, 1050;
+
+@each $w in $widths {
+  @media (min-width: #{$w}px) {
+    .min-#{$w}-none {
+      display: none;
+    }
+    .min-#{$w}-block {
+      display: block;
+    }
+    .min-#{$w}-inline {
+      display: inline;
+    }
+    .min-#{$w}-inline-block {
+      display: inline-block;
+    }
+    .min-#{$w}-flex {
+      display: flex;
+    }
+    .min-#{$w}-grid {
+      display: grid;
+    }
+  }
+  @media (max-width: #{$w - 1}px) {
+    .max-#{$w}-none {
+      display: none;
+    }
+    .max-#{$w}-block {
+      display: block;
+    }
+    .max-#{$w}-inline {
+      display: inline;
+    }
+    .max-#{$w}-inline-block {
+      display: inline-block;
+    }
+    .max-#{$w}-flex {
+      display: flex;
+    }
+    .max-#{$w}-grid {
+      display: grid;
+    }
+  }
+}

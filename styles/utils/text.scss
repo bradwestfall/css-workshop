@@ -1,0 +1,65 @@
+.text-warn {
+  color: var(--warn) !important;
+}
+
+.text-success {
+  color: var(--success) !important;
+}
+
+.text-small {
+  font-size: 0.8rem;
+}
+
+.text-xsmall {
+  font-size: 0.6rem;
+}
+
+.text-large {
+  font-size: 1.5rem;
+}
+
+.text-xlarge {
+  font-size: 3rem;
+}
+
+.text-color-blue {
+  color: var(--blue4);
+}
+
+.text-color-green {
+  color: var(--green);
+}
+
+.text-color-red {
+  color: var(--red);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.no-wrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon-text {
+  > span {
+    vertical-align: middle;
+  }
+  .icon + span {
+    margin-left: 0.5em;
+  }
+  span + .icon {
+    margin-left: 0.5em;
+  }
+}

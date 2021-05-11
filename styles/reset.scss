@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  font-size: 16pt;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--textColor);
+  font-family: var(--fontFamily);
+  font-weight: var(--fontWeight);
+
+  // Mimic browser default since normalize.css takes it away
+  margin: 8px;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid var(--lineColor);
+  margin: 2em 0;
+}
+
+a {
+  color: var(--anchorColor);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headingFontFamily);
+  font-weight: var(--headingFontWeight);
+  color: var(--headingColor);
+  margin: 0;
+  letter-spacing: 0.03em;
+}
+
+em {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+p,
+li {
+  line-height: 1.5em;
+}
+
+::selection {
+  background: var(--blue);
+  color: #fff;
+}
