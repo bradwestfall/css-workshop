@@ -5,10 +5,10 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npm-run-all --parallel styles styles:watch styles:watch-lessons server",
-    "styles": "node-sass styles/all.scss lessons/all.do-not-edit.css --source-map true",
-    "styles:watch": "node-sass -w styles/all.scss lessons/all.css --source-map true ",
+    "styles": "node-sass styles/all.scss lessons/styles/all.do-not-edit.css --source-map true",
+    "styles:watch": "node-sass -w styles/all.scss lessons/styles/all.css --source-map true",
     "styles:watch-lessons": "node-sass -rw lessons -o lessons --source-map true",
-    "server": "browser-sync start --server 'lessons' --files 'lessons' --no-notify"
+    "server": "browser-sync start --server 'lessons' --files 'lessons' --no-notify --no-open"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",

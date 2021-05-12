@@ -1,30 +1,28 @@
 # Workshop Material
 
-## 1. Selectors
+## 1. Defaults and Inheritance
 
+- Display: Inline / Block
+- h1-h6, ul, li, p, a
+- header, footer, main, aside
+- Colors and Fonts
 - CSS Parts
-- Colors
+
+## 2. Selectors and Cascade
+
 - Basic Selectors
-- Basic Selector Strategy
 - Selector Combinators
-- Specificity
-
-## 2.
-
-## CSS Fundamentals - 3 hours
-
-- CSS Parts
-- Basic Selectors
+- Pseudo Selectors
 - Basic Selector Strategy
-- Colors
-- Defaults and Inheritance
-- Display
-- Box Model
-  - Box-sizing
-- Selector Combinators
-- Sass
 - Specificity
 - Cascade
+
+## 3. Box Model
+
+- Box Model
+- Box-sizing
+
+## 4. Reset and Normalize
 
 ## Layout Fundamentals - 3 Hours
 
