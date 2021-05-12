@@ -2,10 +2,12 @@
 
 ## 1. Defaults and Inheritance
 
-- Display: Inline / Block
+- Default Display Values: Inline / Block
+- Defaults vs Inheritance
 - h1-h6, ul, li, p, a
 - header, footer, main, aside
 - Colors and Fonts
+- Units: px, em, rem
 - CSS Parts
 
 ## 2. Selectors and Cascade
@@ -20,9 +22,18 @@
 ## 3. Box Model
 
 - Box Model
+- Collapsing Margin
 - Box-sizing
+- Inline-Block
 
 ## 4. Reset and Normalize
+
+- General reset concepts
+- Inherited values for text
+- Reset vs Normalize
+- Don't reset `ul` and `ol`
+- Google Fonts
+- Review existing Reset
 
 ## Layout Fundamentals - 3 Hours
 
@@ -33,11 +44,10 @@
   - Block Centering
   - Inline Centering
   - Absolute Position Centering
+- Body min-height
 
 ## CSS Layout - 3 hours
 
-- Collapsing Margins
-- display: inline-block
 - Flexbox
 - Pseudo Elements
 - Media Queries
