@@ -31,11 +31,18 @@
 - General reset concepts
 - Inherited values for text
 - Reset vs Normalize
-- Don't reset `ul` and `ol`
+- Don't reset things like lists, buttons, forms
 - Google Fonts
 - Review existing Reset
 
+## 5. Side-by-side Content
+
+- Inline-Block
+- Flexbox
+
 ## Layout Fundamentals - 3 Hours
+
+https://dribbble.com/shots/15110825-Bank-App-Dashboard
 
 - Normal Flow
 - Absolute Position
@@ -48,7 +55,6 @@
 
 ## CSS Layout - 3 hours
 
-- Flexbox
 - Pseudo Elements
 - Media Queries
 

@@ -3,7 +3,7 @@
 - General concepts (tag resets)
 - Inherited values for text
 - Reset vs Normalize
-- Don't reset `ul` and `ol`
+- Don't reset things like lists, buttons, forms
 - Google Fonts
 - Review existing Reset
 
