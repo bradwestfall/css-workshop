@@ -2,10 +2,6 @@
   display: block !important;
 }
 
-.hide {
-  display: none;
-}
-
 /**
  * Spacing
  */
@@ -44,22 +40,6 @@ $gutterSmall: 0.3rem;
   @media (min-width: 900px) {
     padding: 0 3rem;
   }
-}
-
-/**
- * Full Width Breakout
- */
-
-// https://css-tricks.com/full-width-containers-limited-width-parents/
-// https://twitter.com/maddesigns/status/707127462614978560
-.full-width-breakout {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  padding: 0 1rem;
 }
 
 /**

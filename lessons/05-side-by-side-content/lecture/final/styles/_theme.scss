@@ -1,0 +1,34 @@
+:root {
+  --gray1: #4c515f;
+  --gray2: #69768a;
+  --gray3: #c9d2e0;
+  --gray4: #eef1f5;
+
+  --darkBlue: #00476c;
+  --blue: #0a9fcc;
+  --pink: #ff4bc7;
+  --purplePink: #ec6df1;
+  --purple: #b56df2;
+  --purpleBlue: #7580fe;
+
+  // Semantic Colors
+  --warn: var(--red);
+  --success: var(--green);
+
+  // Specific Colors
+  --lineColor: var(--gray3);
+
+  // Text
+  --textColor: #333;
+  --textColorLight: #999;
+  --fontFamily: Helvetica, Arial;
+  --fontWeight: 300;
+  --headingFontFamily: 'Rubik', Arial;
+  --headingFontWeight: 600;
+  --anchorColor: var(--blue);
+
+  // Layout
+  --gutter: 1rem;
+  --gutterSmall: 0.5rem;
+  --gutterLarge: 1.5rem;
+}
