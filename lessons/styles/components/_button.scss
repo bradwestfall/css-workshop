@@ -17,13 +17,6 @@ button,
 .button {
   @include buttonReset;
   cursor: pointer;
-
-  // &.button-small {
-  //   font-size: 0.5rem;
-  // }
-  // &.button-large {
-  //   font-size: 1rem;
-  // }
 }
 
 // Anchor Looking
@@ -48,7 +41,6 @@ button {
   border-radius: 0.2rem;
   text-decoration: none;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   padding: 0.8em 1.2em;
 
   &:hover,

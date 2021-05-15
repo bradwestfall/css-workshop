@@ -6,6 +6,9 @@
 - Don't reset things like lists, buttons, forms
 - Google Fonts
 - Review existing Reset
+- Remember to remove reset things from local stylesheet
+  - `heading`
+  - `a.button`
 
 ## Fonts from Google
 

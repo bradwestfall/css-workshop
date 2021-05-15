@@ -1,0 +1,161 @@
+body {
+  background-color: #fafafa;
+  padding: 3rem;
+}
+
+.dog-card {
+  background-color: #fff;
+  border-radius: 0.5em;
+  box-shadow: 0 0 30px -20px #000, 0 0 5px -4px #000;
+}
+
+.dog-card .dog-attributes {
+  padding: 0;
+  list-style: none;
+}
+
+// "util" so we don't collide with the global one
+.spacing-util > * + * {
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.spacing-util-large > * + * {
+  margin: 0;
+  margin-top: 2rem;
+}
+
+/**
+ * See if you can design three versions of dog cards.
+ * Write all the CSS below this without changing 
+ * the stuff above
+ */
+
+.card-1 {
+  width: 20em;
+  text-align: center;
+  padding: 1rem;
+
+  img {
+    object-fit: cover;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 10px solid var(--blue);
+    margin-top: -4em;
+    margin-bottom: 1em;
+  }
+
+  .dog-attributes {
+    display: flex;
+    text-align: left;
+    font-size: 0.8em;
+    li {
+      flex: 1;
+      &:first-child {
+        flex-basis: 4em;
+      }
+      span {
+        display: block;
+      }
+      span:last-child {
+        font-weight: bold;
+      }
+    }
+  }
+
+  a.button {
+    display: block;
+    margin: 0 -1rem -1rem -1rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 1rem;
+  }
+}
+
+.card-2 {
+  width: 45em;
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+  overflow: hidden;
+
+  img {
+    display: block;
+    object-fit: cover;
+    width: 7em;
+    margin: -1em 0 -1em -1em;
+  }
+
+  img + div {
+    flex: 1;
+  }
+
+  .dog-attributes {
+    display: flex;
+    text-align: left;
+    font-size: 0.8em;
+    li {
+      flex: 1;
+      &:first-child {
+        flex-basis: 4em;
+      }
+      span {
+        display: block;
+      }
+      span:last-child {
+        font-weight: bold;
+      }
+    }
+  }
+
+  a.button {
+    align-self: center;
+  }
+}
+
+.card-3 {
+  width: 30em;
+  padding: 1em;
+
+  header {
+    display: flex;
+    img {
+      object-fit: cover;
+      width: 8em;
+      height: 8em;
+      border-radius: 50%;
+    }
+  }
+
+  footer {
+    display: flex;
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid var(--blue);
+
+    a.button {
+      align-self: center;
+    }
+  }
+
+  .dog-attributes {
+    margin: 0;
+    display: flex;
+    flex: 1;
+    text-align: left;
+    font-size: 0.8em;
+    li {
+      flex: 1;
+      &:first-child {
+        flex-basis: 4em;
+      }
+      span {
+        display: block;
+      }
+      span:last-child {
+        font-weight: bold;
+      }
+    }
+  }
+}

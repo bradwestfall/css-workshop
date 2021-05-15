@@ -1,0 +1,17 @@
+body {
+  padding-bottom: 6rem; }
+
+.container {
+  background-color: #333;
+  padding: 5px; }
+  .container div {
+    padding: 5px;
+    border-radius: 0.2rem; }
+  .container div:nth-child(1) {
+    background-color: lightgreen; }
+  .container div:nth-child(2) {
+    background-color: teal; }
+  .container div:nth-child(3) {
+    background-color: lightgreen; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,81 @@
+.block {
+  display: block !important;
+}
+
+/**
+ * Spacing
+ */
+
+$gutter: 0.8rem;
+$gutterSmall: 0.3rem;
+
+.spacing-small {
+  @include spacing($gutterSmall);
+}
+.spacing {
+  @include spacing($gutter);
+}
+.spacing-large {
+  @include spacing($gutter * 2);
+}
+
+.horizontal-spacing-small {
+  @include spacing($gutterSmall, true);
+}
+.horizontal-spacing {
+  @include spacing($gutter, true);
+}
+.horizontal-spacing-large {
+  @include spacing($gutter * 2, true);
+}
+
+/**
+ * Center
+ */
+
+.center-layout {
+  margin: 0 auto;
+  max-width: var(--maxWidth);
+  padding: 0 1.5rem;
+  @media (min-width: 900px) {
+    padding: 0 3rem;
+  }
+}
+
+/**
+ * Alignment
+ */
+
+.vertical-middle > * {
+  vertical-align: middle;
+}
+
+/**
+ * Flexbox
+ */
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.align-self-start {
+  align-self: start;
+}

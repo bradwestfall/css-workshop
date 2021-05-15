@@ -1,0 +1,162 @@
+body {
+  padding-bottom: 6rem;
+}
+
+.container {
+  background-color: #333;
+  padding: 5px;
+  margin-bottom: 4rem;
+
+  div {
+    padding: 5px;
+    border-radius: 0.2rem;
+  }
+  div:nth-child(1) {
+    background-color: lightgreen;
+  }
+  div:nth-child(2) {
+    background-color: teal;
+  }
+  div:nth-child(3) {
+    background-color: lightgreen;
+  }
+}
+
+.example-1.container {
+  display: flex;
+}
+
+.example-2.container {
+  display: flex;
+  div:nth-child(1) {
+    width: 300px;
+  }
+  div:nth-child(2) {
+    flex: 1;
+  }
+}
+
+.example-3.container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.example-4.container {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  div:nth-child(2) {
+    flex: 1;
+  }
+}
+
+.example-5.container {
+  display: flex;
+  div {
+    flex: 1;
+  }
+}
+
+.example-6.container {
+  display: flex;
+  div {
+    flex: 1;
+  }
+  div:nth-child(1) {
+    margin-right: 100px;
+  }
+}
+
+.example-7.container {
+  display: flex;
+  gap: 100px;
+  div {
+    flex: 1;
+  }
+}
+
+.example-8.container {
+  display: flex;
+  justify-content: space-between;
+  div {
+    flex: 0 1 100px;
+  }
+}
+
+.example-9.container {
+  display: flex;
+  padding: 40px;
+
+  div {
+    margin: auto;
+    width: 300px;
+    height: 100px;
+  }
+}
+
+.example-10.container {
+  display: flex;
+  // align-items: center;
+
+  div:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+  }
+
+  div:nth-child(2) {
+    height: 60px;
+    flex: 1;
+  }
+}
+
+.example-11 {
+  background-color: #333;
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-bottom: 4rem;
+
+  header {
+    background-color: lightgreen;
+    height: 50px;
+  }
+  .primary-content {
+    flex: 1;
+    display: flex;
+    gap: 5px;
+  }
+  footer {
+    background-color: lightgreen;
+    height: 50px;
+  }
+
+  aside {
+    background-color: teal;
+    width: 100px;
+  }
+
+  main {
+    background-color: teal;
+    flex: 1;
+  }
+}
+
+.example-12 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #333;
+  gap: 10px;
+
+  div {
+    padding: 0;
+    // Do this instead of width, in conjunction with gap instead of margin
+    flex: 1 1 calc((100% / 3) - 20px);
+    height: 100px;
+    border-radius: 10px;
+    background-color: teal;
+  }
+}

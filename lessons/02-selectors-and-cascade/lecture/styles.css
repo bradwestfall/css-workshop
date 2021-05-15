@@ -1,7 +1,8 @@
 body {
-  background-color: #0a9fcc; }
+  background-color: #ddd; }
 
 div {
-  background-color: #fff; }
+  background-color: #fff;
+  margin-bottom: 1rem; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -7,7 +7,7 @@
 - h1-h6, ul, li, p, a
 - header, footer, main, aside
 - Colors and Fonts
-- Units: px, em, rem
+- Units: px, em, rem,
 - CSS Parts
 
 ## 2. Selectors and Cascade
@@ -23,8 +23,12 @@
 
 - Box Model
 - Collapsing Margin
+- Width and Height issues
 - Box-sizing
+- Negative Margins
 - Inline-Block
+- Centering Block, Inline, and Inline Block
+- Tiles
 
 ## 4. Reset and Normalize
 
@@ -35,33 +39,36 @@
 - Google Fonts
 - Review existing Reset
 
-## 5. Side-by-side Content
-
-- Inline-Block
-- Flexbox
-
-## Layout Fundamentals - 3 Hours
-
-https://dribbble.com/shots/15110825-Bank-App-Dashboard
+## 5. Layout Essentials
 
 - Normal Flow
 - Absolute Position
+  - Centering
 - Transforms
+  - Centering
+- Aspect Ratios
+- Media Queries
+- Container Queries
+
+## 6. Flexbox
+
+- Flexbox
 - Centering
-  - Block Centering
-  - Inline Centering
-  - Absolute Position Centering
+- Tiles
+
+## 7. Layout Planning
+
+- Layout Planning
+- Outside-in approach
 - Body min-height
 
-## CSS Layout - 3 hours
+## 8. Creative CSS
 
 - Pseudo Elements
-- Media Queries
+- Animations
 
-## Strategy - 3 hours
+## 9. Strategy
 
-- Resets
-- Layout Planning
 - Locally scoping to a component
 - Sass Modules
 - Class Naming Strategies - BEM

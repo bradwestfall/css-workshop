@@ -1,0 +1,44 @@
+body {
+  background-color: #fafafa;
+  padding: 3rem; }
+
+.dog-card {
+  background-color: #fff;
+  border-radius: 0.5em;
+  margin-bottom: 2em;
+  box-shadow: 0 0 30px -20px #000, 0 0 5px -4px #000; }
+
+.dog-card .dog-attributes {
+  padding: 0;
+  list-style: none; }
+
+/**
+ * See if you can design three versions of dog cards.
+ * Write all the CSS below this without changing 
+ * the stuff above
+ */
+.card-1 {
+  width: 400px; }
+  .card-1 img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 200px; }
+
+.card-2 {
+  width: 1000px; }
+  .card-2 img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 200px; }
+
+.card-3 {
+  width: 600px; }
+  .card-3 img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 200px; }
+
+/*# sourceMappingURL=styles.css.map */
