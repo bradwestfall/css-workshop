@@ -18,6 +18,14 @@
   color: var(--textColorLight);
 }
 
+.text-dark {
+  color: var(--textColor);
+}
+
+.text-inherit {
+  color: inherit;
+}
+
 .text-left {
   text-align: left;
 }

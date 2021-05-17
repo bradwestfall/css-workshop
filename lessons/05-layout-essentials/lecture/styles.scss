@@ -1,0 +1,15 @@
+main {
+  background-color: var(--blue);
+  max-width: 500px;
+  height: 200px;
+  padding: 1em;
+}
+
+main > p {
+  background-color: var(--purpleBlue);
+  margin: 0;
+}
+
+main > div {
+  background-color: var(--pink);
+}

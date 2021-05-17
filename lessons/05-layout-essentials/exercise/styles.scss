@@ -1,0 +1,31 @@
+.credit-card {
+  font-size: 20pt;
+  font-weight: bold;
+  width: 18em;
+  height: 10em;
+  background-color: #111;
+  color: #eee;
+  border-radius: 1em;
+
+  .card-type {
+    background-color: var(--blue);
+    color: #fff;
+  }
+
+  .card-number {
+    background-color: var(--blue);
+    color: #fff;
+  }
+
+  .personal {
+    background-color: var(--blue);
+    color: #fff;
+  }
+
+  .visa-logo {
+    background-color: var(--blue);
+    color: #fff;
+    // If you give an image a width then do `height: auto` it will
+    // maintain it's aspect ratio
+  }
+}

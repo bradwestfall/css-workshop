@@ -3,4 +3,7 @@
   min-height: 150px;
   display: flex;
   gap: var(--gutter);
+  > div {
+    flex: 1;
+  }
 }

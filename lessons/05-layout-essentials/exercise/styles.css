@@ -1,0 +1,22 @@
+.credit-card {
+  font-size: 20pt;
+  font-weight: bold;
+  width: 18em;
+  height: 10em;
+  background-color: #111;
+  color: #eee;
+  border-radius: 1em; }
+  .credit-card .card-type {
+    background-color: var(--blue);
+    color: #fff; }
+  .credit-card .card-number {
+    background-color: var(--blue);
+    color: #fff; }
+  .credit-card .personal {
+    background-color: var(--blue);
+    color: #fff; }
+  .credit-card .visa-logo {
+    background-color: var(--blue);
+    color: #fff; }
+
+/*# sourceMappingURL=styles.css.map */

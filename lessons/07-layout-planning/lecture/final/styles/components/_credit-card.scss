@@ -1,9 +1,54 @@
 .credit-card {
+  font-weight: bold;
   aspect-ratio: 1 / 0.6;
-  flex: 1;
-  border-radius: 1rem;
+  color: var(--blue);
+  border-radius: 1em;
+  position: relative;
   background-blend-mode: screen;
   background: linear-gradient(to right, #39d1ff, transparent),
     linear-gradient(to left, #32ffff, transparent),
     linear-gradient(to top, #f157ff, transparent);
+
+  // Default Size
+  font-size: 20pt;
+  &.size-small {
+    font-size: 8pt;
+  }
+  &.size-medium {
+    font-size: 14pt;
+  }
+
+  --gutter: 1em;
+
+  .card-type {
+    position: absolute;
+    left: var(--gutter);
+    top: var(--gutter);
+    font-size: 0.6em;
+    color: var(--pink);
+  }
+
+  .card-number {
+    letter-spacing: 0.2em;
+    position: absolute;
+    right: var(--gutter);
+    left: var(--gutter);
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  .personal {
+    position: absolute;
+    left: var(--gutter);
+    bottom: var(--gutter);
+  }
+
+  .visa-logo {
+    position: absolute;
+    right: var(--gutter);
+    bottom: var(--gutter);
+    width: 5em;
+    height: auto;
+  }
 }

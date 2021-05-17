@@ -2,12 +2,14 @@
 
 This exercise is inspired by https://codepen.io/oliviale/full/WqwOzv
 
-## Tips
+## Task: Build Three Cards
+
+Tips
 
 - Only change the HTML (add classes or elements) if instructed to
 - Try to use `em` units as much as you can
 
-## Three Variations of Cards
+Three Variations of Cards:
 
 ### Card 1
 
