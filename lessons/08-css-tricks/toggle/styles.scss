@@ -1,0 +1,36 @@
+body {
+  padding: 4rem;
+}
+
+.custom-toggle {
+  display: inline-block;
+  cursor: pointer;
+
+  input {
+    display: none;
+  }
+
+  --size: 2em;
+
+  .toggle {
+    height: var(--size);
+    aspect-ratio: 1 / 0.5;
+    border-radius: 10em;
+    background-color: #ddd;
+  }
+
+  .toggle::before {
+    content: '';
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    transition: all 0.2s;
+    border-radius: 50%;
+    background-color: var(--pink);
+  }
+
+  input:checked + .toggle::before {
+    margin-left: calc(100% - var(--size));
+    background-color: var(--green);
+  }
+}

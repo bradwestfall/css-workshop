@@ -65,6 +65,10 @@
 ## 8. CSS Tricks
 
 - Grid Tiles
+- Triangles with Borders
+- Line Through Heading
+- Toggle
+- Container Queries
 
 ## 9. Strategy
 

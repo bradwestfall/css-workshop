@@ -1,0 +1,26 @@
+html {
+  font-size: 12pt; }
+
+body {
+  padding: 4em; }
+
+.line-through-heading {
+  display: flex; }
+
+.line-through-heading::before, .line-through-heading::after {
+  content: '';
+  flex-grow: 1;
+  height: 0.5rem;
+  background-color: var(--blue);
+  border-radius: 1rem;
+  align-self: center; }
+
+.line-through-heading::before {
+  margin-right: 1rem; }
+
+.line-through-heading::after {
+  margin-left: 1rem; }
+
+/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.css.map */

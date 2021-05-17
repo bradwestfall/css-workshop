@@ -421,9 +421,10 @@ li {
   margin: 0 auto;
   max-width: var(--maxWidth);
   padding: 0 1.5rem; }
-  @media (min-width: 900px) {
-    .center-layout {
-      padding: 0 3rem; } }
+
+@media (min-width: 900px) {
+  .center-layout {
+    padding: 0 3rem; } }
 
 /**
  * Alignment
@@ -1100,34 +1101,40 @@ li {
   background: linear-gradient(to right, #39d1ff, transparent), linear-gradient(to left, #32ffff, transparent), linear-gradient(to top, #f157ff, transparent);
   font-size: 20pt;
   --gutter: 1em; }
-  .credit-card.size-small {
-    font-size: 8pt; }
-  .credit-card.size-medium {
-    font-size: 14pt; }
-  .credit-card .card-type {
-    position: absolute;
-    left: var(--gutter);
-    top: var(--gutter);
-    font-size: 0.6em;
-    color: var(--pink); }
-  .credit-card .card-number {
-    letter-spacing: 0.2em;
-    position: absolute;
-    right: var(--gutter);
-    left: var(--gutter);
-    top: 50%;
-    text-align: center;
-    transform: translateY(-50%); }
-  .credit-card .personal {
-    position: absolute;
-    left: var(--gutter);
-    bottom: var(--gutter); }
-  .credit-card .visa-logo {
-    position: absolute;
-    right: var(--gutter);
-    bottom: var(--gutter);
-    width: 5em;
-    height: auto; }
+
+.credit-card.size-small {
+  font-size: 8pt; }
+
+.credit-card.size-medium {
+  font-size: 14pt; }
+
+.credit-card .card-type {
+  position: absolute;
+  left: var(--gutter);
+  top: var(--gutter);
+  font-size: 0.6em;
+  color: var(--pink); }
+
+.credit-card .card-number {
+  letter-spacing: 0.2em;
+  position: absolute;
+  right: var(--gutter);
+  left: var(--gutter);
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%); }
+
+.credit-card .personal {
+  position: absolute;
+  left: var(--gutter);
+  bottom: var(--gutter); }
+
+.credit-card .visa-logo {
+  position: absolute;
+  right: var(--gutter);
+  bottom: var(--gutter);
+  width: 5em;
+  height: auto; }
 
 .heading {
   margin: 0; }
@@ -1150,5 +1157,8 @@ li {
   border: 1px dashed #dce6e8;
   border-radius: 0.3rem;
   min-height: 150px; }
+
+/*# sourceMappingURL=global.css.map */
+/*# sourceMappingURL=global.css.map */
 
 /*# sourceMappingURL=global.css.map */

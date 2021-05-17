@@ -22,6 +22,14 @@
   font-size: 3rem;
 }
 
+.text-light {
+  color: var(--textColorLight);
+}
+
+.text-dark {
+  color: var(--textColor);
+}
+
 .text-color-blue {
   color: var(--blue4);
 }
@@ -30,8 +38,8 @@
   color: var(--green);
 }
 
-.text-color-red {
-  color: var(--red);
+.text-color-pink {
+  color: var(--pink);
 }
 
 .text-left {

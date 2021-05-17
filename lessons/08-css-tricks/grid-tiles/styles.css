@@ -14,33 +14,43 @@ body {
   max-width: 20em;
   text-align: center;
   padding: 1rem; }
-  .dog-card img {
-    object-fit: cover;
-    width: 10em;
-    height: 10em;
-    border-radius: 50%;
-    border: 10px solid var(--blue);
-    margin-top: -4em;
-    margin-bottom: 1em; }
-  .dog-card .dog-attributes {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    text-align: left;
-    font-size: 0.8em; }
-    .dog-card .dog-attributes li {
-      flex: 1; }
-      .dog-card .dog-attributes li:first-child {
-        flex-basis: 4em; }
-      .dog-card .dog-attributes li span {
-        display: block; }
-      .dog-card .dog-attributes li span:last-child {
-        font-weight: bold; }
-  .dog-card a.button {
-    display: block;
-    margin: 0 -1rem -1rem -1rem;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    padding: 1rem; }
+
+.dog-card img {
+  object-fit: cover;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 10px solid var(--blue);
+  margin-top: -4em;
+  margin-bottom: 1em; }
+
+.dog-card .dog-attributes {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  text-align: left;
+  font-size: 0.8em; }
+
+.dog-card .dog-attributes li {
+  flex: 1; }
+
+.dog-card .dog-attributes li:first-child {
+  flex-basis: 4em; }
+
+.dog-card .dog-attributes li span {
+  display: block; }
+
+.dog-card .dog-attributes li span:last-child {
+  font-weight: bold; }
+
+.dog-card a.button {
+  display: block;
+  margin: 0 -1rem -1rem -1rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 1rem; }
+
+/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */

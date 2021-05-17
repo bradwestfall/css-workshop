@@ -4,8 +4,8 @@
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm-run-all --parallel styles styles:watch server",
-    "styles": "node-sass -r lessons -o lessons --source-map true",
+    "start": "npm-run-all --parallel styles:watch server",
+    "// styles": "node-sass -r lessons -o lessons --source-map true",
     "styles:watch": "node-sass -rw lessons -o lessons --source-map true",
     "server": "browser-sync start --server 'lessons' --files 'lessons' --no-notify --no-open"
   },

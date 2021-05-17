@@ -8,12 +8,14 @@
   border-radius: 1em;
   position: relative;
   --gutter: 1em; }
-  @media (min-width: 800px) {
-    .credit-card {
-      font-size: 12pt; } }
-  @media (min-width: 1100px) {
-    .credit-card {
-      font-size: 20pt; } }
+
+@media (min-width: 800px) {
+  .credit-card {
+    font-size: 12pt; } }
+
+@media (min-width: 1100px) {
+  .credit-card {
+    font-size: 20pt; } }
 
 .credit-card__type {
   position: absolute;
@@ -41,5 +43,7 @@
   bottom: var(--gutter);
   width: 5em;
   height: auto; }
+
+/*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */
