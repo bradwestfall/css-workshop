@@ -421,10 +421,9 @@ li {
   margin: 0 auto;
   max-width: var(--maxWidth);
   padding: 0 1.5rem; }
-
-@media (min-width: 900px) {
-  .center-layout {
-    padding: 0 3rem; } }
+  @media (min-width: 900px) {
+    .center-layout {
+      padding: 0 3rem; } }
 
 /**
  * Alignment
@@ -1103,9 +1102,8 @@ li {
   border-radius: 0.5rem;
   box-shadow: 0 0 50px -40px #000;
   padding: var(--gutter); }
-
-.card.card-dark {
-  background-color: #bdccd747; }
+  .card.card-dark {
+    background-color: #bdccd747; }
 
 .credit-card {
   font-weight: bold;
@@ -1117,40 +1115,34 @@ li {
   background: linear-gradient(to right, #39d1ff, transparent), linear-gradient(to left, #32ffff, transparent), linear-gradient(to top, #f157ff, transparent);
   font-size: 20pt;
   --gutter: 1em; }
-
-.credit-card.size-small {
-  font-size: 8pt; }
-
-.credit-card.size-medium {
-  font-size: 14pt; }
-
-.credit-card .card-type {
-  position: absolute;
-  left: var(--gutter);
-  top: var(--gutter);
-  font-size: 0.6em;
-  color: var(--pink); }
-
-.credit-card .card-number {
-  letter-spacing: 0.2em;
-  position: absolute;
-  right: var(--gutter);
-  left: var(--gutter);
-  top: 50%;
-  text-align: center;
-  transform: translateY(-50%); }
-
-.credit-card .personal {
-  position: absolute;
-  left: var(--gutter);
-  bottom: var(--gutter); }
-
-.credit-card .visa-logo {
-  position: absolute;
-  right: var(--gutter);
-  bottom: var(--gutter);
-  width: 5em;
-  height: auto; }
+  .credit-card.size-small {
+    font-size: 8pt; }
+  .credit-card.size-medium {
+    font-size: 14pt; }
+  .credit-card .card-type {
+    position: absolute;
+    left: var(--gutter);
+    top: var(--gutter);
+    font-size: 0.6em;
+    color: var(--pink); }
+  .credit-card .card-number {
+    letter-spacing: 0.2em;
+    position: absolute;
+    right: var(--gutter);
+    left: var(--gutter);
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%); }
+  .credit-card .personal {
+    position: absolute;
+    left: var(--gutter);
+    bottom: var(--gutter); }
+  .credit-card .visa-logo {
+    position: absolute;
+    right: var(--gutter);
+    bottom: var(--gutter);
+    width: 5em;
+    height: auto; }
 
 .heading {
   margin: 0; }
@@ -1194,15 +1186,13 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 2rem 1rem 2rem 0; }
-
-.primary-nav a.primary-nav-item {
-  color: var(--textColor);
-  font-weight: bold;
-  display: block;
-  padding: var(--gutter) var(--gutterLarge); }
-
-.primary-nav a.primary-nav-item.active {
-  color: var(--purple); }
+  .primary-nav a.primary-nav-item {
+    color: var(--textColor);
+    font-weight: bold;
+    display: block;
+    padding: var(--gutter) var(--gutterLarge); }
+    .primary-nav a.primary-nav-item.active {
+      color: var(--purple); }
 
 .primary-content {
   flex: 1;
@@ -1210,17 +1200,15 @@ body {
   border-radius: 1.3rem;
   box-shadow: 0 0 50px -40px #000;
   display: flex; }
-
-.primary-content main {
-  border-radius: 1.3rem;
-  background-color: #fff;
-  box-shadow: 0 0 50px -30px #000;
-  flex: 1;
-  padding: var(--gutter) var(--gutterLarge); }
-
-.primary-content > aside {
-  width: 350px;
-  padding: var(--gutter); }
+  .primary-content main {
+    border-radius: 1.3rem;
+    background-color: #fff;
+    box-shadow: 0 0 50px -30px #000;
+    flex: 1;
+    padding: var(--gutter) var(--gutterLarge); }
+  .primary-content > aside {
+    width: 350px;
+    padding: var(--gutter); }
 
 .recent-transactions {
   border: 1px dashed #dce6e8;
@@ -1232,10 +1220,7 @@ body {
   min-height: 150px;
   display: flex;
   gap: var(--gutter); }
-
-.user-credit-cards > div {
-  flex: 1; }
-
-/*# sourceMappingURL=global.css.map */
+  .user-credit-cards > div {
+    flex: 1; }
 
 /*# sourceMappingURL=global.css.map */

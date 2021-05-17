@@ -423,10 +423,9 @@ li {
   margin: 0 auto;
   max-width: var(--maxWidth);
   padding: 0 1.5rem; }
-
-@media (min-width: 900px) {
-  .center-layout {
-    padding: 0 3rem; } }
+  @media (min-width: 900px) {
+    .center-layout {
+      padding: 0 3rem; } }
 
 /**
  * Alignment
@@ -1262,21 +1261,18 @@ button,
   outline: 0;
   display: inline-block;
   cursor: pointer; }
-
-button::-moz-focus-inner,
-.button::-moz-focus-inner {
-  border: 0; }
-
-button:hover,
-.button:hover {
-  outline: 0; }
+  button::-moz-focus-inner,
+  .button::-moz-focus-inner {
+    border: 0; }
+  button:hover,
+  .button:hover {
+    outline: 0; }
 
 button {
   color: var(--anchorColor);
   font-weight: 300; }
-
-button:hover, button:focus {
-  outline: none; }
+  button:hover, button:focus {
+    outline: none; }
 
 .button {
   font-weight: 500;
@@ -1290,19 +1286,16 @@ button:hover, button:focus {
   text-decoration: none;
   text-align: center;
   padding: 0.8em 1.2em; }
-
-.button:hover, .button:focus {
-  background-color: var(--purpleBlue);
-  text-decoration: none; }
-
-.button.button-outline {
-  background-color: transparent;
-  border-color: var(--blue);
-  color: var(--blue); }
-
-.button:not(.button-outline):focus {
-  color: #fff;
-  background-color: var(--pink); }
+  .button:hover, .button:focus {
+    background-color: var(--purpleBlue);
+    text-decoration: none; }
+  .button.button-outline {
+    background-color: transparent;
+    border-color: var(--blue);
+    color: var(--blue); }
+  .button:not(.button-outline):focus {
+    color: #fff;
+    background-color: var(--pink); }
 
 ::placeholder {
   color: #a2b0b8;
@@ -1330,10 +1323,9 @@ input:-webkit-autofill:active {
   font-weight: 300;
   color: var(--blue3);
   border-radius: 3px; }
-
-.form-field:focus {
-  outline: none;
-  border-color: var(--blue3); }
+  .form-field:focus {
+    outline: none;
+    border-color: var(--blue3); }
 
 textarea.form-field {
   resize: vertical;
@@ -1357,14 +1349,13 @@ select.form-field {
 
 .form-field-wrap.required > label.form-field-label {
   position: relative; }
-
-.form-field-wrap.required > label.form-field-label::after {
-  content: '•';
-  position: absolute;
-  right: -0.7em;
-  top: -0.15em;
-  color: var(--blue3);
-  font-size: 1.4em; }
+  .form-field-wrap.required > label.form-field-label::after {
+    content: '•';
+    position: absolute;
+    right: -0.7em;
+    top: -0.15em;
+    color: var(--blue3);
+    font-size: 1.4em; }
 
 .heading.size-1 {
   font-size: 1.5rem; }
@@ -1377,15 +1368,12 @@ select.form-field {
 
 .workshop-courses li {
   margin-bottom: 0.3rem; }
-
-.workshop-courses li a {
-  display: inline-block;
-  padding: 0 0.3rem;
-  margin-right: 0.3rem;
-  background-color: #e4f6ff;
-  transform: skew(-5deg);
-  border-radius: 4px; }
-
-/*# sourceMappingURL=global.css.map */
+  .workshop-courses li a {
+    display: inline-block;
+    padding: 0 0.3rem;
+    margin-right: 0.3rem;
+    background-color: #e4f6ff;
+    transform: skew(-5deg);
+    border-radius: 4px; }
 
 /*# sourceMappingURL=global.css.map */
