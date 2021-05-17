@@ -2,7 +2,7 @@
 
 - Layout Planning
 - Outside-in approach
-- Body min-height
+- Body with `min-height` and `vh`, `vw` inits
 
 ## Building a layout
 

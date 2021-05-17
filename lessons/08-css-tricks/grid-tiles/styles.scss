@@ -1,0 +1,57 @@
+body {
+  background-color: #fafafa;
+  padding: 3rem;
+}
+
+.grid-tiles {
+  display: grid;
+  grid-gap: 5rem 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.dog-card {
+  background-color: #fff;
+  border-radius: 0.5em;
+  box-shadow: 0 0 30px -20px #000, 0 0 5px -4px #000;
+  max-width: 20em;
+  text-align: center;
+  padding: 1rem;
+
+  img {
+    object-fit: cover;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 10px solid var(--blue);
+    margin-top: -4em;
+    margin-bottom: 1em;
+  }
+
+  .dog-attributes {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    text-align: left;
+    font-size: 0.8em;
+    li {
+      flex: 1;
+      &:first-child {
+        flex-basis: 4em;
+      }
+      span {
+        display: block;
+      }
+      span:last-child {
+        font-weight: bold;
+      }
+    }
+  }
+
+  a.button {
+    display: block;
+    margin: 0 -1rem -1rem -1rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 1rem;
+  }
+}

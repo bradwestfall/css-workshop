@@ -2,10 +2,10 @@
 
 ## 1. Defaults and Inheritance
 
-- Default Display Values: Inline / Block
+- Default Display Values: `inline` and `block`
 - Defaults vs Inheritance
 - h1-h6, ul, li, p, a
-- header, footer, main, aside
+- header, footer, main, aside, nav
 - Colors and Fonts
 - Units: px, em, rem,
 - CSS Parts
@@ -60,12 +60,11 @@
 
 - Layout Planning
 - Outside-in approach
-- Body min-height
+- Body with `min-height` and `vh`, `vw` inits
 
-## 8. Creative CSS
+## 8. CSS Tricks
 
-- Pseudo Elements
-- Animations
+- Grid Tiles
 
 ## 9. Strategy
 

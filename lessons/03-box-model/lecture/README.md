@@ -7,4 +7,4 @@
 - Negative Margins
 - Inline-Block
 - Centering Block, Inline, and Inline Block
-- Tiles
+- Inline-Block Tiles

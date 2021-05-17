@@ -1,8 +1,6 @@
 # Exercise
 
-Use absolute positioning to make a credit card UI
-
-## Task
+## Task: Use absolute positioning to make a credit card UI
 
 - You'll need to start by putting `position: relative` on the container.
 - Absolute-position the inner parts of the credit card to make it look like the `final.png` graphic
