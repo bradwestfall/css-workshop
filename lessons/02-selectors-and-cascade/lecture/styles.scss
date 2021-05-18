@@ -1,10 +1,22 @@
-// #35b2ff;
-
 body {
-  background-color: #ddd;
+  background-color: #eee;
+  --blue: #35b2ff;
 }
 
-div {
+div.dog.card {
   background-color: #fff;
-  margin-bottom: 1rem;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+div.dog.card a {
+  background-color: var(--blue);
+  padding: 0.5em;
+  display: inline-block;
+  color: #fff;
+
+  ~ a {
+    background-color: red !important;
+    border-radius: 5em;
+  }
 }

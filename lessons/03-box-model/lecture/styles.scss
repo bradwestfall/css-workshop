@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.panel {
+  > div {
+    width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  &.blue {
+    background-color: lightblue;
+    text-align: center;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.5em;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  text-align: left;
+}
