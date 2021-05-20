@@ -1089,13 +1089,20 @@ li {
   text-align: right; }
 
 .avatar {
-  background: linear-gradient(110deg, #39d1ff, #f157ff); }
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(110deg, #39d1ff, #f157ff);
+  display: inline-block; }
 
 .card {
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 0 50px -40px #000;
   padding: var(--gutter); }
+
+.card.card-dark {
+  background-color: #bdccd747; }
 
 .credit-card {
   font-weight: bold;
@@ -1153,6 +1160,14 @@ li {
 
 .heading.size-3 {
   font-size: 0.9rem; }
+
+.square-icon-outline {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 0.3em;
+  vertical-align: middle; }
 
 body {
   min-height: 100vh;

@@ -438,6 +438,12 @@ li {
 .flex {
   display: flex; }
 
+.flex-gap-small {
+  gap: var(--gutterSmall); }
+
+.flex-gap {
+  gap: var(--gutter); }
+
 .items-center {
   align-items: center; }
 
@@ -1091,6 +1097,11 @@ li {
 .avatar {
   background: linear-gradient(110deg, #39d1ff, #f157ff); }
 
+.card {
+  background-color: #fff;
+  border-radius: 1em;
+  padding: 1em; }
+
 .credit-card {
   font-weight: bold;
   aspect-ratio: 1 / 0.6;
@@ -1148,6 +1159,56 @@ li {
 .heading.size-3 {
   font-size: 0.9rem; }
 
+body {
+  background-blend-mode: screen;
+  background: linear-gradient(to right, #39d1ff, transparent), linear-gradient(to left, #32ffff, transparent), linear-gradient(to top, #f157ff, transparent);
+  min-height: 100vh;
+  margin: 0;
+  padding: 2em;
+  display: flex;
+  flex-direction: column; }
+
+.app {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1em;
+  border-radius: 1.5em;
+  flex: 1;
+  display: flex;
+  gap: var(--gutter); }
+
+.primary-aside {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--gutter);
+  margin: 1.5em 0; }
+
+.primary-nav > a {
+  display: block;
+  padding: 1em 0;
+  font-weight: bold;
+  color: var(--textColor); }
+
+.primary-content {
+  background-color: rgba(255, 255, 255, 0.6);
+  --primaryContentCorners: 1.1em;
+  border-radius: var(--primaryContentCorners);
+  flex-grow: 1;
+  display: flex;
+  box-shadow: 0 0 20px -15px #000; }
+
+main {
+  background-color: white;
+  flex: 1;
+  padding: var(--gutter);
+  border-radius: var(--primaryContentCorners);
+  box-shadow: 0 0 20px -15px #000; }
+
+.secondary-aside {
+  width: 250px;
+  padding: var(--gutter); }
+
 .recent-transactions {
   border: 1px dashed #dce6e8;
   border-radius: 0.3rem;
@@ -1158,7 +1219,6 @@ li {
   border-radius: 0.3rem;
   min-height: 150px; }
 
-/*# sourceMappingURL=global.css.map */
 /*# sourceMappingURL=global.css.map */
 
 /*# sourceMappingURL=global.css.map */

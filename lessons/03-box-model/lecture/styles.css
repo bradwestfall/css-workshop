@@ -6,17 +6,27 @@ body {
   margin: 0 auto;
   padding: 1em; }
 
-.panel.blue {
-  background-color: lightblue;
-  text-align: center; }
+.services-panel {
+  background-color: lightblue; }
 
 .card {
   background-color: white;
   border-radius: 0.5em;
   height: 100px;
-  width: 100px;
-  display: inline-block;
-  text-align: left; }
+  width: 100px; }
+
+.services-panel .card-group {
+  margin-top: -2em; }
+
+.card-group {
+  text-align: center; }
+
+.card-group .card {
+  text-align: left;
+  display: inline-block; }
+
+.card-group .card + .card {
+  margin-left: 1em; }
 
 /*# sourceMappingURL=styles.css.map */
 

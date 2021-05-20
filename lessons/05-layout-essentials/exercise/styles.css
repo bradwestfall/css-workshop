@@ -6,17 +6,23 @@
   background-color: #111;
   color: #eee;
   border-radius: 1em; }
-  .credit-card .card-type {
-    background-color: var(--blue);
-    color: #fff; }
-  .credit-card .card-number {
-    background-color: var(--blue);
-    color: #fff; }
-  .credit-card .personal {
-    background-color: var(--blue);
-    color: #fff; }
-  .credit-card .visa-logo {
-    background-color: var(--blue);
-    color: #fff; }
+
+.credit-card .card-type {
+  background-color: var(--blue);
+  color: #fff; }
+
+.credit-card .card-number {
+  background-color: var(--blue);
+  color: #fff; }
+
+.credit-card .personal {
+  background-color: var(--blue);
+  color: #fff; }
+
+.credit-card .visa-logo {
+  background-color: var(--blue);
+  color: #fff; }
+
+/*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */

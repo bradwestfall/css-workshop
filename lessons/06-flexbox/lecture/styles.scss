@@ -1,21 +1,25 @@
 body {
-  padding-bottom: 6rem;
+  margin: 0;
 }
 
-.container {
+.website {
   background-color: #333;
-  padding: 5px;
-  div {
-    padding: 5px;
-    border-radius: 0.2rem;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  header {
+    background-color: blue;
+    padding: 2em;
   }
-  div:nth-child(1) {
-    background-color: lightgreen;
+
+  main {
+    background-color: green;
+    flex: 1;
   }
-  div:nth-child(2) {
-    background-color: teal;
-  }
-  div:nth-child(3) {
-    background-color: lightgreen;
+
+  footer {
+    background-color: blue;
   }
 }

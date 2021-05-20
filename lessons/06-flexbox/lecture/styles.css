@@ -1,17 +1,24 @@
 body {
-  padding-bottom: 6rem; }
+  margin: 0; }
 
-.container {
+.website {
   background-color: #333;
-  padding: 5px; }
-  .container div {
-    padding: 5px;
-    border-radius: 0.2rem; }
-  .container div:nth-child(1) {
-    background-color: lightgreen; }
-  .container div:nth-child(2) {
-    background-color: teal; }
-  .container div:nth-child(3) {
-    background-color: lightgreen; }
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.website header {
+  background-color: blue;
+  padding: 2em; }
+
+.website main {
+  background-color: green;
+  flex: 1; }
+
+.website footer {
+  background-color: blue; }
+
+/*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */

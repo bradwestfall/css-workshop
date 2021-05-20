@@ -152,7 +152,6 @@ body {
   gap: 10px;
 
   div {
-    padding: 0;
     // Do this instead of width, in conjunction with gap instead of margin
     flex: 1 1 calc((100% / 3) - 20px);
     height: 100px;

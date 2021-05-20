@@ -5,23 +5,29 @@ body {
   display: inline-block;
   cursor: pointer;
   --size: 2em; }
-  .custom-toggle input {
-    display: none; }
-  .custom-toggle .toggle {
-    height: var(--size);
-    aspect-ratio: 1 / 0.5;
-    border-radius: 10em;
-    background-color: #ddd; }
-  .custom-toggle .toggle::before {
-    content: '';
-    display: block;
-    width: var(--size);
-    height: var(--size);
-    transition: all 0.2s;
-    border-radius: 50%;
-    background-color: var(--pink); }
-  .custom-toggle input:checked + .toggle::before {
-    margin-left: calc(100% - var(--size));
-    background-color: var(--green); }
+
+.custom-toggle input {
+  display: none; }
+
+.custom-toggle .toggle {
+  height: var(--size);
+  aspect-ratio: 1 / 0.5;
+  border-radius: 1000em;
+  background-color: #ddd; }
+
+.custom-toggle .toggle::before {
+  content: '';
+  display: block;
+  width: var(--size);
+  height: var(--size);
+  transition: all 0.2s;
+  border-radius: 50%;
+  background-color: var(--pink); }
+
+.custom-toggle input:checked + .toggle::before {
+  margin-left: calc(100% - var(--size));
+  background-color: var(--green); }
+
+/*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */

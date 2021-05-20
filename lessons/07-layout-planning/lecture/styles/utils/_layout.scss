@@ -58,6 +58,14 @@ $gutterSmall: 0.3rem;
   display: flex;
 }
 
+.flex-gap-small {
+  gap: var(--gutterSmall);
+}
+
+.flex-gap {
+  gap: var(--gutter);
+}
+
 .items-center {
   align-items: center;
 }

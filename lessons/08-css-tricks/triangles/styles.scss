@@ -4,8 +4,10 @@ body {
 }
 
 // div {
-//   border: 2em solid var(--blue);
-//   height: 150px;
+//   border: 2em solid transparent;
+//   border-left-color: var(--blue);
+//   height: 0px;
+//   width: 0;
 // }
 
 div {
